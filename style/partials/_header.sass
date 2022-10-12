@@ -1,0 +1,86 @@
+$strongpink: #FE63B1
+$softpink: #FFDCEF
+
+.header
+  z-index: 10
+  display: flex
+  position: fixed
+  top: 0px
+  left: 0px
+  width: 100%
+  min-width: 350px
+  height: 10vh
+  max-height: 10vh
+  min-height: 100px
+  background-image: url(../img/background/irregular-white-bottom.png)
+  background-repeat: no-repeat
+  background-size: 100% 85%
+  &__logo
+    z-index: 10
+    height: 100%
+  &__nav
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    width: 100%
+    height: 90%
+    &__hamburbutton
+      border: none
+      background: none
+      margin-right: 20px
+    &__list
+      display: none
+      flex-direction: column
+      position: absolute
+      right: 0px
+      top: 3vh
+      background-color: #ffffff
+      border-radius: 8px
+      align-items: center
+      padding-bottom: 10px
+      box-shadow: 0px 4px 4px #00000051
+      &__item
+        list-style: none
+        margin: 4px 50px
+        a
+          color: black
+          text-decoration: none
+          font-size: 1.5rem
+      &__hamburclose
+        font-size: 1.2rem
+        width: 2rem
+        height: 2rem
+        border: none
+        background-color: #ffffff
+        align-self: flex-end
+        margin: 0px 18px
+        box-shadow: 0px 4px 4px #00000051
+        border-radius: 50%
+
+@media (min-width: 600px)
+  .header
+    &__nav
+      &__hamburbutton
+        display: none
+      &__list
+        display: flex !important
+        flex-direction: row
+        position: relative
+        justify-content: space-evenly
+        top: 0px
+        left: 0px
+        width: 100%
+        border-radius: 0px
+        padding: 0px
+        box-shadow: none
+        height: 50%
+        &__item
+          margin: 0px
+          a
+            color: $strongpink
+            font-weight: bold
+            box-shadow: 0px 4px 4px #00000036
+            padding: 3px 10px
+            border-radius: 50px
+        &__hamburclose
+          display: none
