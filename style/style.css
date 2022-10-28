@@ -376,10 +376,6 @@ main .divisor__images {
   overflow: hidden;
 }
 
-main .divisor__images img {
-  height: fit-content;
-}
-
 main .divisor__images__img--left {
   border-radius: 0px 20px 20px 0px;
   width: 30%;
@@ -812,6 +808,32 @@ main .certificate {
 
 main .certificate img {
   width: 80%;
+}
+
+@media (min-width: 600px) {
+  main section h2 {
+    font-size: 6rem;
+  }
+  main section h4 {
+    font-size: 3rem;
+  }
+  main section h3 {
+    font-size: 4rem;
+  }
+  main section p {
+    font-size: 2.5rem;
+  }
+  main section p span {
+    font-size: 2.5rem;
+  }
+  main section .ticklist .tick {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  main section .pinlist .pin {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 * {
