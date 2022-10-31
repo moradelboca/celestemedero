@@ -18,7 +18,8 @@
   position: relative;
   height: 100%;
   aspect-ratio: 1 / 1;
-  display: inline;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .header__nav {
@@ -339,6 +340,7 @@ main .aboutme__icon {
   align-items: center;
   width: 80%;
   height: auto;
+  aspect-ratio: 1/1;
   padding: 0px 5px;
 }
 
@@ -531,7 +533,6 @@ main .faqs__container__answer {
     flex-direction: column;
     width: 250px;
     height: 450px;
-    min-width: 220px;
     padding: 10px;
   }
   main .services__container__service__image {
