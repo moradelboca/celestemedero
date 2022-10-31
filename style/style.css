@@ -15,7 +15,7 @@
 }
 
 .header__logo {
-  display: inline;
+  height: 100%;
 }
 
 .header__logo img {
@@ -334,10 +334,7 @@ main .aboutme__icon3 {
 
 main .aboutme__icon {
   align-self: start;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  align-items: center;
   width: 80%;
   padding: 0px 5px;
 }
