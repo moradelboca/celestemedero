@@ -339,8 +339,6 @@ main .aboutme__icon {
   text-align: center;
   align-items: center;
   width: 80%;
-  height: auto;
-  aspect-ratio: 1/1;
   padding: 0px 5px;
 }
 
@@ -350,6 +348,7 @@ main .aboutme__icon p {
 }
 
 main .aboutme__icon img {
+  aspect-ratio: 1/1;
   padding: 16%;
   width: 80%;
   background: radial-gradient(#FFA6EB 0% 60%, #00000000 60% 100%);
