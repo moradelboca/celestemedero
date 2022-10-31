@@ -106,6 +106,10 @@
 }
 
 main {
+  border-style: solid;
+  border-width: 0px 0px 35px 0px;
+  border-image: url(../img/background/round-white-bottom.png) 0 0 80 0 stretch stretch;
+  border-image-outset: 20px;
   position: relative;
   z-index: 6;
 }
@@ -437,10 +441,6 @@ main .clients .carousel .carousel-inner .clients__name span::after {
 main .faqs {
   min-width: 350px;
   width: 100%;
-  border-style: solid;
-  border-width: 0px 0px 35px 0px;
-  border-image: url(../img/background/round-white-bottom.png) 0 0 80 0 stretch stretch;
-  border-image-outset: 20px;
 }
 
 main .faqs__title {
@@ -795,10 +795,6 @@ main .certificate {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-style: solid;
-  border-width: 0px 0px 35px 0px;
-  border-image: url(../img/background/round-white-bottom.png) 0 0 80 0 stretch stretch;
-  border-image-outset: 20px;
 }
 
 main .certificate img {
