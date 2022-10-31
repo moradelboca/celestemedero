@@ -707,7 +707,7 @@ main .img--servicioasesoramiento {
   background-position: center;
 }
 
-main section {
+main .courses {
   border-style: solid;
   border-width: 35px 0px 0px 0px;
   border-image: url(../img/background/irregular-white-top.png) 80 0 0 0 stretch stretch;
@@ -718,36 +718,36 @@ main section {
   padding: 20px;
 }
 
-main section h2 {
+main .courses h2 {
   font-family: 'Sansita Swashed', cursive;
   font-size: 2.4rem;
   color: #FE63B1;
 }
 
-main section h4 {
+main .courses h4 {
   font-size: 1.6rem;
   margin-bottom: 15px;
 }
 
-main section h3 {
+main .courses h3 {
   font-size: 1.5rem;
   font-family: 'Sansita Swashed', cursive;
   margin: 10px 0px;
   color: #FE63B1;
 }
 
-main section p {
+main .courses p {
   font-size: 1.4rem;
   display: inline;
   margin-bottom: 10px;
 }
 
-main section p span {
+main .courses p span {
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-main section .ticklist .tick {
+main .courses .ticklist .tick {
   height: 14px;
   width: 14px;
   display: inline-block;
@@ -758,7 +758,7 @@ main section .ticklist .tick {
   background-position: center;
 }
 
-main section .pinlist .pin {
+main .courses .pinlist .pin {
   height: 14px;
   width: 14px;
   display: inline-block;
@@ -770,25 +770,25 @@ main section .pinlist .pin {
   margin-top: 30px;
 }
 
-main section .pinlist p {
+main .courses .pinlist p {
   font-weight: bold;
 }
 
-main section .pinlist p span {
+main .courses .pinlist p span {
   color: #FE63B1;
   text-transform: uppercase;
 }
 
-main section .pinlist ul {
+main .courses .pinlist ul {
   list-style: none;
 }
 
-main section .pinlist ul p {
+main .courses .pinlist ul p {
   font-weight: normal;
   color: #000000;
 }
 
-main section .pinlist ul p span {
+main .courses .pinlist ul p span {
   color: #000000;
   text-transform: none;
   font-weight: bold;
