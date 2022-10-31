@@ -15,15 +15,15 @@
 }
 
 .header__logo {
-  position: relative;
+  display: inline;
+}
+
+.header__logo img {
   height: 100%;
   aspect-ratio: 1 / 1;
-  display: inline-block;
-  overflow: hidden;
 }
 
 .header__nav {
-  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -338,7 +338,6 @@ main .aboutme__icon {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 80%;
   padding: 0px 5px;
 }
 
